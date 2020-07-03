@@ -9,8 +9,7 @@ const Schema = mongoose.Schema;
     level: {
       type: String,
       enum: ['Easy Peasy', 'Amateur Chef', 'UltraPro Chef'],
-      minLength: 10,
-      maxlength: 13,
+     
     },
     
     ingredients: [{ type: String, minLength: 2 }],
